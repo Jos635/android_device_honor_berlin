@@ -145,6 +145,9 @@ PRODUCT_PACKAGES += \
     hostapd \
     wpa_supplicant
 
+# FDroid
+PRODUCT_PACKAGE += FDroidPrivilegedExtension
+
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapstartsize=8m \
     dalvik.vm.heapgrowthlimit=384m \
