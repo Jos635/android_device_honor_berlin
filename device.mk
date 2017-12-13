@@ -146,7 +146,7 @@ PRODUCT_PACKAGES += \
     wpa_supplicant
 
 # FDroid
-PRODUCT_PACKAGE += FDroidPrivilegedExtension \
+PRODUCT_PACKAGES += FDroidPrivilegedExtension \
 		   NetworkLocation
 
 PRODUCT_PROPERTY_OVERRIDES += \
