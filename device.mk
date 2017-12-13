@@ -146,7 +146,8 @@ PRODUCT_PACKAGES += \
     wpa_supplicant
 
 # FDroid
-PRODUCT_PACKAGE += FDroidPrivilegedExtension
+PRODUCT_PACKAGE += FDroidPrivilegedExtension \
+		   NetworkLocation
 
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapstartsize=8m \
