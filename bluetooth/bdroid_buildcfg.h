@@ -18,6 +18,7 @@
 #define _BDROID_BUILDCFG_H
 
 #define BTM_DEF_LOCAL_NAME   "Honor 6X"
+#define BTM_BYPASS_EXTRA_ACL_SETUP TRUE
 
 #define BLE_INCLUDED TRUE
 
